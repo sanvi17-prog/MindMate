@@ -29,7 +29,7 @@ function MoodCheckin({ onBack, onHistoryUpdate }) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/mood/analyze",
+        "https://mindmate-backend-k5cs.onrender.com/api/mood/analyze", 
         {
           method: "POST",
           headers: {
